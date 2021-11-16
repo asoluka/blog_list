@@ -1,0 +1,12 @@
+get http://localhost:3001/api/blogs
+
+###
+post http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Tale of a programmer who deleted his whole work",
+  "author": "Austin Asoluka",
+  "url": "https://google.com",
+  "likes": 4
+}
